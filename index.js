@@ -1,3 +1,11 @@
+var configuration = {
+	"themeLayout": "Win10",
+	"themeColor": "Dark",
+	"transitionMS": [150, 16], // #
+	"responseDelay": [500, 2000],
+	"fastLoadIn": 0 // #
+};
+
 function IntwebPage() {
 	document.querySelector("body").innerHTML = `
 		<div id="misc">
@@ -25,5 +33,5 @@ function IntwebPage() {
 			<div onclick="deSelect()" class="wrapper-right"></div>
 		</div>
 	`
-}
-IntwebPage()
+};
+IntwebPage();
